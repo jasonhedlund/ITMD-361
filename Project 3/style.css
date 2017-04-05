@@ -50,9 +50,15 @@ h2{
 
 }
 
+h6{
+	font-variant: small-caps;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 body{
 	padding-top: 0px;
-    font-family: 'Palanquin Dark';
+	font-family: 'Palanquin Dark';
 	font-size: 16px;
 	background-image: url("media/background.png");
 	background-attachment: fixed;
@@ -97,6 +103,10 @@ img{
 	max-width: 100%;
 	height: auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.arrow{
+	box-shadow: none;
 }
 
 figcaption{
